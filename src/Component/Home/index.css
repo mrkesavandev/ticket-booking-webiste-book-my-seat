@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.home-container{
+    width: 100%; 
+    height: 100vh;
+    overflow: auto;
+    background-color: rgb(25, 38, 74);
+    
+}
+
+.slider-container{
+    
+    width: 99%;
+    margin-top: 10px;
+    margin: auto;
+    text-align: center;
+    height: 200px;
+    min-height: 200px;
+
+}
+
+
+.rec-movie{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.leo {
+    text-align: center;
+}
+.leo-poster{
+   width: 80%;
+   height: 300px;
+}
+.carosel-poster{
+    width: 100%;
+    height: 500px
+}
+
+.recommand-details{
+    margin-top: 400px;
+}
+.rec-card{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+   
+    
+
+   
+    
+}
+
+.movie-poster{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.movie{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+}

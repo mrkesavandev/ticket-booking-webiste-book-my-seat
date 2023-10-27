@@ -1,0 +1,22 @@
+.Booking{
+    text-align: center;
+    height: 1000px;
+    width: 100%;
+
+}
+.h1{
+    padding-top: 100px;
+    color: black;
+    font-size: 45px;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image{
+    width: 500px;
+}
+
+.booking-image{
+    display: flex;
+    justify-content: space-around;
+}

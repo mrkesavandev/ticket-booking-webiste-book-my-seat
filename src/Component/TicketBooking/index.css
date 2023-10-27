@@ -1,0 +1,16 @@
+
+  
+.seat-reservation{
+  background-color: #242333;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.seat{
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-left: 40px;
+
+}

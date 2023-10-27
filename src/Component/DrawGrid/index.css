@@ -1,0 +1,51 @@
+ .container {
+    width: 600px;
+    margin: auto;
+    background-color: #242333;
+  }
+  
+  .grid{
+    margin-top: 10px;
+  }
+  .set2{
+    margin-top: 40px;
+  }
+  .grid td {
+    width: 20px;
+    
+    border: 2px solid orange;
+    text-align: center;
+    float: left;
+    border-radius: 3px;
+    margin: 15px;
+  }
+  
+  .screen{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+  }
+
+  .grid td:hover {
+    opacity: .7;
+    cursor: pointer;
+
+  }
+  
+  .reserved {
+    background: orange;
+    color: #fff;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+ 
+  
+  .available {
+    color: white;
+    border-radius: 10px;
+  }

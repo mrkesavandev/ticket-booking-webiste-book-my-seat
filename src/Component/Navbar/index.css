@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-container{
+   background-color: rgb(25, 38, 74);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+   
+}
+
+
+.booking-details{
+    display: flex;
+    margin: 10px;
+}
+
+.nav-heading {
+    font-weight: 900;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 1px;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.list-of-booking{
+    display: flex;
+    position: relative;
+    
+}
+.nav-list{
+    padding-left: 5px;
+    cursor: pointer;
+    padding-right: 5px;
+    border: 2px solid rgb(227, 165, 83);
+    padding-bottom: 5px;
+    margin: 5px;
+    color: white;
+    
+}
+
+
+.form-container{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    
+}
+.icon{
+    padding: 12px;
+    margin-inline: 5px;
+    background-color: white;
+    
+   
+}
+
+
+.input-box{
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}

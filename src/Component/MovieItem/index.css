@@ -1,0 +1,27 @@
+.card{
+    width: 200px;
+    text-decoration: none;
+    margin-right: 20px;
+    
+   
+}
+
+.image-card{
+    height: 450px;
+    width: 300px;
+}
+.title{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+   
+    
+}
+.link{
+    text-decoration: none;
+    margin: 20px;
+    padding: 50px;
+ 
+   
+}
